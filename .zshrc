@@ -159,6 +159,7 @@ fi
 
 alias dappclean="git submodule deinit -f --all && git submodule update --init --recursive"
 alias cleantestnet="rm -rf ~/.dapp/testnet/8545"
+alias klabenv="export KLAB_EVMS_PATH=~/Projects/klab/evm-semantics"
 
 export PATH="/usr/local/bin:$PATH"
 export PATH="$PATH:~/.local/bin"
@@ -171,3 +172,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # export PATH="/usr/local/opt/node@8/bin:$PATH"
 export PATH=/usr/local/opt/gnu-getopt/bin:/usr/local/opt/gnu-time/libexec/gnubin:$PATH
+export ZSHRC=~/.dotfiles/.zshrc
+export KLAB_EVMS_PATH=~/Projects/klab/evm-semantics
+

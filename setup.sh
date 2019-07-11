@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-if [ ! -f ~/.zshrc  ]; then
-	ln -s ~/.dotfiles/.zshrc ~/.zshrc
-fi
-
 if [ ! -f ~/.gitconfig ]; then
 	ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 fi
